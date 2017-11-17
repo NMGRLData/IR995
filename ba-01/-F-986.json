@@ -1,0 +1,144 @@
+{
+    "acquisition_software": "Pychron17.7(Exp0.2,DVC0.1)", 
+    "aliquot": 986, 
+    "analysis_type": "blank_air", 
+    "analyst_name": "", 
+    "comment": "", 
+    "commit": "75c875ebef9faa720e37bef8c3aab8d274c01175", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": 7396134611152273268, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron17.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Hum.", 
+                "pub_date": "2017-11-17T12:44:40", 
+                "title": "iServer Hum.", 
+                "value": 20.2
+            }
+        ], 
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure", 
+                "name": "Pressure", 
+                "pub_date": "2017-11-17T12:55:19", 
+                "title": null, 
+                "value": 96.9
+            }, 
+            {
+                "device": "AirPressure2", 
+                "name": "Pressure2", 
+                "pub_date": "2017-11-17T12:55:21", 
+                "title": null, 
+                "value": 98.3008
+            }
+        ], 
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger", 
+                "name": "ColdFinger Temp.", 
+                "pub_date": "2017-11-17T12:55:50", 
+                "title": null, 
+                "value": -196.0
+            }, 
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Temp.", 
+                "pub_date": "2017-11-17T12:32:33", 
+                "title": "iServer Temp.", 
+                "value": 73.0
+            }, 
+            {
+                "device": "Chiller", 
+                "name": "Coolant Temp.", 
+                "pub_date": "2017-11-17T10:59:07", 
+                "title": null, 
+                "value": 18.0
+            }
+        ]
+    }, 
+    "experiment_queue_name": "Load1841", 
+    "extraction": "felix_air_x3.py", 
+    "identifier": "ba-01-F", 
+    "increment": null, 
+    "instrument_name": "", 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 16, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)", 
+            "name": "Ar36"
+        }, 
+        "Ar37": {
+            "detector": "L1", 
+            "name": "Ar37"
+        }, 
+        "Ar38": {
+            "detector": "AX", 
+            "name": "Ar38"
+        }, 
+        "Ar39": {
+            "detector": "H1", 
+            "name": "Ar39"
+        }, 
+        "Ar40": {
+            "detector": "H2", 
+            "name": "Ar40"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Felix", 
+    "material": "Blank", 
+    "measurement": "felix_analysis400_120 no center.py", 
+    "post_equilibration": "felix_pump_extraction_line.py", 
+    "post_measurement": "felix_pump_ms.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "IR995", 
+    "sample": "blank_air", 
+    "source": {
+        "emission": 880.871, 
+        "trap": 247.6
+    }, 
+    "spec_sha": "6751a098b8bc6ae0c20cb35c95d6d9fdb27f462d", 
+    "timestamp": "2017-11-17T12:56:27.501381", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "eb7bb53d-8ce3-4d94-b8f8-acd96a030ffc", 
+    "whiff_result": null
+}
